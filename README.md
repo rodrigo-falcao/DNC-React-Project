@@ -1,11 +1,13 @@
-## 🚀 DNC React Project
-Este é um projeto desenvolvido em React que implementa funcionalidades como troca de idioma, formulário de contato, listagem de projetos com favoritos, e muito mais. O objetivo é criar uma aplicação interativa e responsiva com foco em boas práticas e organização de código.
+# 🚀 DNC React Project
+Este é um projeto desenvolvido em React que implementa funcionalidades como troca de idioma, formulário de contato, listagem de projetos com favoritos, e muito mais. <br/>
+O objetivo é criar uma aplicação interativa e responsiva com foco em boas práticas e organização de código.
 
 ## 🌍 Acesso ao Projeto
 
 🔗 [Clique aqui para acessar](https://dnc-react-project.vercel.app/)
 
 ## 📱 Descrição do Projeto
+
 - Este projeto é um site interativo que permite aos usuários:
 - Navegar entre páginas.
 - Trocar o idioma entre português e inglês.
@@ -14,6 +16,7 @@ Este é um projeto desenvolvido em React que implementa funcionalidades como tro
 - Experienciar uma interface responsiva e amigável.
 
 ## 📌 Funcionalidades
+
 1. Troca de Idioma:<br/>
   Os usuários podem alternar entre os idiomas português e inglês.<br/>
   O idioma selecionado é salvo no `localStorage`.<br/>
@@ -74,20 +77,20 @@ src/
 
 ## 🌐 Detalhes dos Componentes
 1. Header
-* Exibe o logotipo, menu de navegação e botões para troca de idioma.
-* Fecha o menu ao selecionar um idioma.
+ * Exibe o logotipo, menu de navegação e botões para troca de idioma.
+ * Fecha o menu ao selecionar um idioma.
 2. Footer
-* Contém links para redes sociais, informações de contato e botões para troca de idioma.
+ * Contém links para redes sociais, informações de contato e botões para troca de idioma.
 3. Hero
-* Seção principal com título, subtítulo e botão de chamada para ação.
+ * Seção principal com título, subtítulo e botão de chamada para ação.
 4. ContactForm
-* Formulário com validação de campos.
-* Simulação de envio com feedback visual.
+ * Formulário com validação de campos.
+ * Simulação de envio com feedback visual.
 5. ProjectsList
-* Lista de projetos carregados da API.
-* Permite marcar/desmarcar projetos como favoritos.
+ * Lista de projetos carregados da API.
+ * Permite marcar/desmarcar projetos como favoritos.
 6. LoadingSpinner
-* Exibe um indicador de carregamento enquanto os dados são carregados.
+ * Exibe um indicador de carregamento enquanto os dados são carregados.
 
 ## 🧩 API
 Os dados do projeto são consumidos de uma API externa hospedada no Vercel.
