@@ -15,8 +15,7 @@ function AboutText() {
                     <h2>{appContext.languages[appContext.language].about.title}</h2>
                 </div>
                 <div className="text-section-text">
-                    <p>{appContext.languages[appContext.language].about.p1}
-                    </p>
+                    <p>{appContext.languages[appContext.language].about.p1}</p>
                     <p>{appContext.languages[appContext.language].about.p2}</p>
                     <p>{appContext.languages[appContext.language].about.p3}</p>
                 </div>

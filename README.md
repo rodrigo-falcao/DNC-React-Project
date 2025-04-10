@@ -5,7 +5,7 @@ Este é um projeto desenvolvido em React que implementa funcionalidades como tro
 
 🔗 [Clique aqui para acessar](https://dnc-react-project.vercel.app/)
 
-## Descrição do Projeto
+## 📱 Descrição do Projeto
 - Este projeto é um site interativo que permite aos usuários:
 - Navegar entre páginas.
 - Trocar o idioma entre português e inglês.
@@ -15,22 +15,29 @@ Este é um projeto desenvolvido em React que implementa funcionalidades como tro
 
 ## 📌 Funcionalidades
 1. Troca de Idioma:<br/>
-  Os usuários podem alternar entre os idiomas português e inglês.
-  O idioma selecionado é salvo no `localStorage`.
+  Os usuários podem alternar entre os idiomas português e inglês.<br/>
+  O idioma selecionado é salvo no `localStorage`.<br/>
 
-2. Formulário de Contato:
-Validação de campos (nome, e-mail e mensagem).
-Simulação de envio com feedback visual.
+2. Formulário de Contato:<br/>
+Validação de campos (nome, e-mail e mensagem).<br/>
+Simulação de envio com feedback visual.<br/>
 
-3. Listagem de Projetos:
-Exibição de projetos com título, subtítulo e imagem.
+3. Listagem de Projetos:<br/>
+Exibição de projetos com título, subtítulo e imagem.<br/>
 Possibilidade de marcar/desmarcar projetos como favoritos (salvo no `sessionStorage`).
 
-4. Carregamento Dinâmico:
-Dados de texto e projetos são carregados de uma API externa.
+4. Carregamento Dinâmico:<br/>
+Dados de texto e projetos são carregados de uma API externa.<br/>
 
-5. Responsividade:
-Layout adaptado para dispositivos móveis e desktops.
+5. Responsividade:<br/>
+Layout adaptado para dispositivos móveis e desktops.<br/>
+
+6. Estilo Variável com `buttonStyle` :<br/>
+A prop buttonStyle permite que o botão aplique diferentes classes CSS, o que possibilita a personalização do estilo.<br/>
+
+**Por exemplo:**<br/>
+* `buttonStyle="secondary"` pode aplicar um estilo secundário.<br/>
+* `buttonStyle="unstyled"` pode remover o estilo padrão.<br/>
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -42,10 +49,12 @@ Layout adaptado para dispositivos móveis e desktops.
 
 ## 📂 Estrutura do Projeto
 
-```plaintext
+```
 src/
 ├── assets/               # Imagens e ícones
 ├── components/           # Componentes reutilizáveis
+│   ├── AboutText/        # Sobre a Empresa
+│   ├── Banner/           # Baner sobre as páginas secundárias
 │   ├── Button/           # Botão estilizado
 │   ├── ContactForm/      # Formulário de contato
 │   ├── Footer/           # Rodapé
@@ -55,9 +64,10 @@ src/
 │   ├── ProjectsList/     # Listagem de projetos
 ├── contexts/             # Contexto global (AppContext)
 ├── services/             # Serviços para consumo de API
-├── styles/               # Estilos globais
+├── pages/                # Páginas da aplicação
 ├── utils/                # Utilitários
 ├── App.jsx               # Componente principal
+├── main.css              # Estilização global
 ├── index.jsx             # Ponto de entrada
 
 ```
